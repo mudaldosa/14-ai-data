@@ -8,7 +8,7 @@ def hello_world():
 
 @app.route("/hello")
 def hello():
-    return "¸¸³ª¼­ ¹Ý°©½À´Ï´Ù."
+    return "ë§Œë‚˜ì„œ ë°˜ê°‘ìŠµë‹ˆë‹¤."
 
 @app.route("/user/<userid>")
 def profile(userid):
